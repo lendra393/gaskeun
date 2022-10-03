@@ -1,0 +1,210 @@
+baseURL = "http://jarcok.netlify.com"
+disableLanguages = []
+disqusShortname = ""
+paginate = "4"
+summaryLength = "30"
+theme = "airspace-hugo"
+title = "DJARUM COKLAT GENERASI CONTEN"
+[Languages.en]
+contentDir = "content/english"
+copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
+languageCode = "en-us"
+languageName = "En"
+weight = 1
+[[Languages.en.menu.footer]]
+URL = "about"
+name = "About"
+weight = 1
+[[Languages.en.menu.footer]]
+URL = "project"
+name = "Project"
+weight = 2
+[[Languages.en.menu.footer]]
+URL = "service"
+name = "Service"
+weight = 3
+[[Languages.en.menu.footer]]
+URL = "pricing"
+name = "Pricing"
+weight = 4
+[[Languages.en.menu.footer]]
+URL = "faq"
+name = "FAQ"
+weight = 5
+[[Languages.en.menu.footer]]
+URL = "contact"
+name = "Contact"
+weight = 6
+[[Languages.en.menu.main]]
+URL = "/fr"
+name = "Home"
+weight = 1
+[[Languages.en.menu.main]]
+URL = "about"
+name = "About"
+weight = 2
+[[Languages.en.menu.main]]
+URL = "project"
+name = "Project"
+weight = 3
+[[Languages.en.menu.main]]
+URL = "service"
+name = "Service"
+weight = 4
+[[Languages.en.menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 5
+[[Languages.en.menu.main]]
+hasChildren = true
+name = "Pages"
+weight = 6
+[[Languages.en.menu.main]]
+URL = "faq"
+name = "FAQ"
+parent = "Pages"
+[[Languages.en.menu.main]]
+URL = "pricing"
+name = "Pricing"
+parent = "Pages"
+[[Languages.en.menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 7
+[Languages.fr]
+contentDir = "content/french"
+copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
+languageCode = "fr-fr"
+languageName = "Fr"
+weight = 2
+[[Languages.fr.menu.footer]]
+URL = "about"
+name = "About"
+weight = 1
+[[Languages.fr.menu.footer]]
+URL = "project"
+name = "Project"
+weight = 2
+[[Languages.fr.menu.footer]]
+URL = "service"
+name = "Service"
+weight = 3
+[[Languages.fr.menu.footer]]
+URL = "pricing"
+name = "Pricing"
+weight = 4
+[[Languages.fr.menu.footer]]
+URL = "faq"
+name = "FAQ"
+weight = 5
+[[Languages.fr.menu.footer]]
+URL = "contact"
+name = "Contact"
+weight = 6
+[[Languages.fr.menu.main]]
+URL = "/"
+name = "Accueil"
+weight = 1
+[[Languages.fr.menu.main]]
+URL = "about"
+name = "À propos"
+weight = 2
+[[Languages.fr.menu.main]]
+URL = "project"
+name = "Projet"
+weight = 3
+[[Languages.fr.menu.main]]
+URL = "service"
+name = "Un service"
+weight = 4
+[[Languages.fr.menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 5
+[[Languages.fr.menu.main]]
+hasChildren = true
+name = "Pages"
+weight = 6
+[[Languages.fr.menu.main]]
+URL = "faq"
+name = "FAQ"
+parent = "Pages"
+[[Languages.fr.menu.main]]
+URL = "pricing"
+name = "Tarification"
+parent = "Pages"
+[[Languages.fr.menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 7
+[markup.goldmark.renderer]
+unsafe = true
+[outputs]
+home = ["HTML"]
+[params]
+author = "Themefisher"
+contact_form_action = "#"
+description = "This is meta description"
+email = "demo@email.com"
+google_analitycs_id = ""
+location = "North Main Street,Brooklyn Australia"
+logo = "images/logo.png"
+logo_width = "150px"
+mobile = "0124857985320"
+multi_author = false
+[params.cookies]
+enable = true
+expire_days = 2
+[params.gmap]
+enable = true
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+map_latitude = "51.5223477"
+map_longitude = "-0.1622023"
+map_marker = "images/marker.png"
+[params.nav_button]
+enable = true
+label = "Get A Quote"
+link = "contact"
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/Ionicons/css/ionicons.min.css"
+[[params.plugins.css]]
+link = "plugins/magnific-popup/magnific-popup.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
+[params.preloader]
+enable = true
+preloader = ""
+[params.widgets]
+sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
+[[params.social]]
+icon = "ion-social-googleplus-outline"
+link = "#"
+[[params.social]]
+icon = "ion-social-linkedin-outline"
+link = "#"
+[[params.social]]
+icon = "ion-social-pinterest-outline"
+link = "#"
+[[params.social]]
+icon = "ion-social-dribbble-outline"
+link = "#"
+[[params.social]]
+icon = "ion-social-twitter-outline"
+link = "#"
+[[params.social]]
+icon = "ion-social-facebook-outline"
+link = "#"
